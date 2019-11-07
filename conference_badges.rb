@@ -20,7 +20,7 @@ def assign_rooms (names)
   
 end
 
-def printer (names)
+def printer (name)
 print = []
 print = batch_badge_creator(names)
 puts print

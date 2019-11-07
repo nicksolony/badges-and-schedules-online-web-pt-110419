@@ -22,8 +22,7 @@ end
 
 def printer (names)
 print = []
-print << batch_badge_creator(names)
-print << assign_rooms (names)
+print = batch_badge_creator(names) + assign_rooms (names)
 puts print
   
 end

@@ -24,5 +24,6 @@ def printer (names)
 print = []
 print << batch_badge_creator(names)
 print << assign_rooms (names)
+puts print
   
 end

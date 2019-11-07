@@ -13,6 +13,6 @@ end
 def assign_rooms (names)
   
   rooms = []
-  names.each_with_index {|name| badges << "Hello, my name is #{name}."}
+  names.each_with_index {|name,index| rooms << "Hello, my name is #{name}."}
   
 end
